@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: 'TravelHaven',
   description: 'Welcome to TravelHaven, your ultimate destination for seamless travel experiences! Replicating the successful model of famous travel app, TravelHaven brings you a user-friendly platform that connects travelers with unique accommodations and unforgettable experiences around the world.',
   icons:{
-    icon: 'https://res.cloudinary.com/dvda6isym/image/upload/v1706691481/Favicon_jxnlur.png',
-    apple: 'https://res.cloudinary.com/dvda6isym/image/upload/v1706691481/Favicon_jxnlur.png'
+    icon: 'https://res.cloudinary.com/dvda6isym/image/upload/v1706755639/image-removebg-preview_dq0wz7.png',
+    apple: 'https://res.cloudinary.com/dvda6isym/image/upload/v1706755639/image-removebg-preview_dq0wz7.png'
   }
 }
 
