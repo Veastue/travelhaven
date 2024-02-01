@@ -15,6 +15,7 @@ const FavoriteClient: React.FC<FavoriteClientProps> = ({
 }) => {
   return (
     <Container>
+        <div className="pt-16"/>
         <Heading
             title='Favorites'
             subtitle='Listing of places you have favorited!'

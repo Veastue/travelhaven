@@ -22,10 +22,11 @@ const Buttons: React.FC<ButtonProps> = ({
 }) => {
   return (
     <button className={`relative disabled:opacity-70 disabled:cursor-not-allowed rounded-lg hover:opacity-80 transition w-full 
-    ${outline? 'bg-white': 'bg-rose-500'} 
-    ${outline? 'border-stone-700': 'border-rose-500'} 
+    ${outline? 'bg-white': 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'} 
+    ${outline? 'border-stone-700': 'border-none'} 
     ${outline? 'text-black': 'text-white'} 
     ${small? 'py-1': 'py-3'} 
+    ${small? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500': 'py-3'} 
     ${small? 'text-sm': 'text-md'}
     ${small? 'font-light': 'font-semibold'}
     ${small? 'border-[1px]': 'border-2'}`
